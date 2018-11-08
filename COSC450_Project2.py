@@ -6,7 +6,8 @@
 # matrices. These matrices are then multiplied together. The original matrices and the product are written to an output
 # text file. The product matrix gets sorted and this sorted matrix is written to the output file also.
 
-# gets ints from the text file
+
+# gets integers from the text file
 inputFile = open("COSC450_P2_Data.txt", "r")
 intStorage = []  # array where the integers will be stored
 
