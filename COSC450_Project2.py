@@ -37,7 +37,7 @@ for i in range(matrix1Cols_matrix2Rows):
         B[i][j] = intStorage[count]  # fills X*5 matrix with the integers from intStorage
         count = count + 1
 
-def matrixmult(A, B):
+def matrixMult(A, B):
     C = [[0 for _ in range(5)] for _ in range(5)]  # makes a 5*5 matrix filled with 0s
     for i in range(5):
         for j in range(5):
@@ -69,7 +69,7 @@ def sortMatrix(matrix):
 
     return matrix
 
-C = matrixmult(A, B)
+C = matrixMult(A, B)
 writeFile("w", 5, matrix1Cols_matrix2Rows, A, "Matrix 1: \n")
 writeFile("a", matrix1Cols_matrix2Rows, 5, B, "\nMatrix 2: \n")
 writeFile("a", 5, 5, C, "\nMatrix Product: \n")
